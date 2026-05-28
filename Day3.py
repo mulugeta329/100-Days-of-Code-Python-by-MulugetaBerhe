@@ -18,7 +18,7 @@ else:
             cost += 35.00
         else:
             cost += 60.00
-            
+
         express_delivery = input("Do you want Express delivery? Type 'yes' or 'no':\n").lower()
         if express_delivery == 'yes':
             cost += 20.00
@@ -26,6 +26,6 @@ else:
         else:
             express_fee = 0.00
             
-        # Professional Output Summary
+        
         print("\n--- Shipping Summary ---")
         print(f"Total Due: ${cost:.2f}")
