@@ -24,6 +24,10 @@ Every project here is built locally in VS Code and integrated with production-le
 * **Core Concepts:** Iteration (`for` loops), Sequence manipulation, `range()` boundaries, Cryptographic list shuffling, and String performance optimization (`.join()`).
 * **Application:** An enterprise-grade tool that aggregates user complexity parameters, applies robust character shuffling, and executes a real-time **Security Audit Engine** to evaluate password integrity status.
 
+### ❄️ Day 6: Ethio Data Center Climate Control Engine
+* **Core Concepts:** Custom Function Definitions (`def`), Parameter Passing, Scope Management, and Conditional Loops (`while`).
+* **Application:** A localized climate controller simulating automated server room cooling for an Addis Ababa data hub. It utilizes custom operational functions (`ay_see_bicha` and `maregagecha`) to safely decrement system temperatures and execute a automated shutdown sequence when optimal thresholds are achieved.
+
 ---
 
 ## 💻 Tech Stack & Environment
