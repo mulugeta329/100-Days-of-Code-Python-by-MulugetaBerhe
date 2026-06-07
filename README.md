@@ -28,6 +28,9 @@ Every project here is built locally in VS Code and integrated with production-le
 * **Core Concepts:** Custom Function Definitions (`def`), Parameter Passing, Scope Management, and Conditional Loops (`while`).
 * **Application:** A localized climate controller simulating automated server room cooling for an Addis Ababa data hub. It utilizes custom operational functions (`ay_see_bicha` and `maregagecha`) to safely decrement system temperatures and execute a automated shutdown sequence when optimal thresholds are achieved.
 
+### 🎮 Day 7: Habesha Culture Hangman Game
+* **Core Concepts:** Game loops (`while`), sequence modification, position index tracking (`range(len())`), multi-conditional states, and list-to-string transformation (`.join()`).
+* **Application:** A command-line terminal version of the classic Hangman game built using pure foundational logic. The codebase preserves structural game engine logic while integrating a custom cultural word bank.
 ---
 
 ## 💻 Tech Stack & Environment
