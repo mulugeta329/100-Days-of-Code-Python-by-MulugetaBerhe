@@ -31,6 +31,9 @@ Every project here is built locally in VS Code and integrated with production-le
 ### 🎮 Day 7: Habesha Culture Hangman Game
 * **Core Concepts:** Game loops (`while`), sequence modification, position index tracking (`range(len())`), multi-conditional states, and list-to-string transformation (`.join()`).
 * **Application:** A command-line terminal version of the classic Hangman game built using pure foundational logic. The codebase preserves structural game engine logic while integrating a custom cultural word bank.
+### 🔒 Day 8: Secure Caesar Cipher Engine
+* **Core Concepts:** Functions with inputs, parameters vs. arguments, positional vs. keyword arguments, modulo loops (`%`), and defensive `try/except` syntax blocks.
+* **Application:** A robust command-line cryptographic tool designed to encode or decode text records using classic cipher mechanics. This codebase prevents structural index crashes by employing wrap-around modulo boundaries, ignores strings/integers outside alphabet criteria, and processes parameters cleanly using named keyword arguments.
 ---
 
 ## 💻 Tech Stack & Environment
