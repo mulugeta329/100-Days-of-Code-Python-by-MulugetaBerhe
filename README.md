@@ -34,6 +34,9 @@ Every project here is built locally in VS Code and integrated with production-le
 ### 🔒 Day 8: Secure Caesar Cipher Engine
 * **Core Concepts:** Functions with inputs, parameters vs. arguments, positional vs. keyword arguments, modulo loops (`%`), and defensive `try/except` syntax blocks.
 * **Application:** A robust command-line cryptographic tool designed to encode or decode text records using classic cipher mechanics. This codebase prevents structural index crashes by employing wrap-around modulo boundaries, ignores strings/integers outside alphabet criteria, and processes parameters cleanly using named keyword arguments.
+### 💼 Day 9: Enterprise Procurement & Blind Bidding Engine
+* **Core Concepts:** Python Dictionaries (`{key: value}`), looping through dictionary keys, dynamic data nesting, operating system terminal compilation (`os.system`), and defensive stream validation (`try/except`).
+* **Application:** A secure corporate blind-bidding terminal tool designed to log vendor names and financial proposals. The system handles continuous runtime evaluations by parsing dictionary keys, clears terminal screens between entries to guarantee confidentiality, and performs algorithmic max-value lookups to declare the winning asset acquisition contract.
 ---
 
 ## 💻 Tech Stack & Environment
