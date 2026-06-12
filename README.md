@@ -40,6 +40,9 @@ Every project here is built locally in VS Code and integrated with production-le
 ### 🧮 Day 10: Enterprise Mathematical Execution Engine
 * **Core Concepts:** Functions with outputs (`return`), operation dictionary mappings, runtime code recursion, Python docstrings (`"""Docstrings"""`), and division-by-zero runtime error mitigations.
 * **Application:** A continuous operational calculator capable of chaining calculations indefinitely. The application stores functions as objects inside structural dictionaries, leverages return values to dynamically feed consecutive arithmetic pipelines, and uses secure terminal recursion to cleanly cycle execution frames without memory leaks.
+### 🃏 Day 11: Enterprise Blackjack Simulator (Capstone)
+* **Core Concepts:** Game engine architecture, state tracking synchronization, conditional collection mutators, custom algorithmic data filtering, and flag-controlled matching blocks.
+* **Application:** A full-scale text console application simulating casino Blackjack rule sets. The program tracks separate dealing vectors, implements programmatic code markers to identify structural natural Blackjacks, automatically scales variable Ace values between $11$ and $1$ to save active players from busting out, and scales computer behavior rules dynamically based on dealer threshold conditions.
 ---
 
 ## 💻 Tech Stack & Environment
