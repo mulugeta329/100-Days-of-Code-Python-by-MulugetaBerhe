@@ -43,6 +43,9 @@ Every project here is built locally in VS Code and integrated with production-le
 ### 🃏 Day 11: Enterprise Blackjack Simulator (Capstone)
 * **Core Concepts:** Game engine architecture, state tracking synchronization, conditional collection mutators, custom algorithmic data filtering, and flag-controlled matching blocks.
 * **Application:** A full-scale text console application simulating casino Blackjack rule sets. The program tracks separate dealing vectors, implements programmatic code markers to identify structural natural Blackjacks, automatically scales variable Ace values between $11$ and $1$ to save active players from busting out, and scales computer behavior rules dynamically based on dealer threshold conditions.
+### 🎯 Day 12: Advanced Numerical Match Engine
+* **Core Concepts:** Local vs. Global Scope limits, global namespace constant management (`UPPERCASE`), structural while-loop flag checks, and runtime variable modification returns.
+* **Application:** A precision number-guessing terminal utility. The engine isolates operational turns inside fixed global constants, protects tracking logic boundaries via function input/output parameters, and implements a defensive stream processing shell to handle erratic non-integer inputs gracefully.
 ---
 
 ## 💻 Tech Stack & Environment
