@@ -46,6 +46,9 @@ Every project here is built locally in VS Code and integrated with production-le
 ### 🎯 Day 12: Advanced Numerical Match Engine
 * **Core Concepts:** Local vs. Global Scope limits, global namespace constant management (`UPPERCASE`), structural while-loop flag checks, and runtime variable modification returns.
 * **Application:** A precision number-guessing terminal utility. The engine isolates operational turns inside fixed global constants, protects tracking logic boundaries via function input/output parameters, and implements a defensive stream processing shell to handle erratic non-integer inputs gracefully.
+### 🔍 Day 13: Custom Architectural Debugging Sandbox
+* **Core Concepts:** Boolean evaluation pitfalls (`and` vs `or`), memory reference assignment mutations vs. shallow dictionary copies (`.copy()`), and infinite tracking loop state retention errors (`+=`).
+* **Application:** An advanced diagnostic console mocking enterprise networking and database scenarios. The utility separates a complete commented-out flawed script from its fully refactored, active production code counterpart to demonstrate structural system validation.
 ---
 
 ## 💻 Tech Stack & Environment
