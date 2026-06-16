@@ -52,6 +52,9 @@ Every project here is built locally in VS Code and integrated with production-le
 ### 📈 Day 14: Enterprise Market Asset Higher-Lower Engine
 * **Core Concepts:** High-level system integration, tracking state synchronization loops, collection data structure pairing, automated conditional evaluation routing, and structural reference switching layouts.
 * **Application:** A complex text console analytics simulator acting as a higher-lower estimation tool comparing financial market values. The engine isolates localized asset records inside data matrices, validates guess operations programmatically, automatically shifts the winning element reference to the comparative baseline index position upon success, and maintains active state retention counters.
+### ☕ Day 15: Automated Beverage Dispensing Matrix
+* **Core Concepts:** Local IDE workspace compilation, state machine logic loops, tracking mutable system dictionary arrays, continuous global data mutations, resource verification processing gates, and dynamic floating-point currency tracking.
+* **Application:** A full-scale system simulator modeling real-world transactional and chemical storage states. The program dynamically audits multi-nested recipe dictionaries, restricts execution blocks through hardware resource capacity gates, computes coin-fraction conversions securely, and routes variable asset updates based on custom functional return gates.
 ---
 
 ## 💻 Tech Stack & Environment
