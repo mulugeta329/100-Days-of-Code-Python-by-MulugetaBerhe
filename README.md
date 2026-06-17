@@ -55,6 +55,9 @@ Every project here is built locally in VS Code and integrated with production-le
 ### ☕ Day 15: Automated Beverage Dispensing Matrix
 * **Core Concepts:** Local IDE workspace compilation, state machine logic loops, tracking mutable system dictionary arrays, continuous global data mutations, resource verification processing gates, and dynamic floating-point currency tracking.
 * **Application:** A full-scale system simulator modeling real-world transactional and chemical storage states. The program dynamically audits multi-nested recipe dictionaries, restricts execution blocks through hardware resource capacity gates, computes coin-fraction conversions securely, and routes variable asset updates based on custom functional return gates.
+### 📦 Day 16: Object-Oriented Beverage Dispensing Matrix
+* **Core Concepts:** Object-Oriented Programming (OOP) paradigms, Class initialization constructions (`__init__`), instantiation of object entities, attributes access vs methods orchestration execution, and modular class relationship coupling.
+* **Application:** A reimagined asset-dispensing machine refactored from functional code into modular OOP architectures. The loop eliminates granular procedural scripts by outsourcing internal operations to dedicated object classes (`Menu`, `CoffeeMaker`, `MoneyMachine`), maintaining clear isolation of state concerns and passing data records implicitly between decoupled system modules.
 ---
 
 ## 💻 Tech Stack & Environment
