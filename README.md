@@ -58,6 +58,9 @@ Every project here is built locally in VS Code and integrated with production-le
 ### 📦 Day 16: Object-Oriented Beverage Dispensing Matrix
 * **Core Concepts:** Object-Oriented Programming (OOP) paradigms, Class initialization constructions (`__init__`), instantiation of object entities, attributes access vs methods orchestration execution, and modular class relationship coupling.
 * **Application:** A reimagined asset-dispensing machine refactored from functional code into modular OOP architectures. The loop eliminates granular procedural scripts by outsourcing internal operations to dedicated object classes (`Menu`, `CoffeeMaker`, `MoneyMachine`), maintaining clear isolation of state concerns and passing data records implicitly between decoupled system modules.
+### 📋 Day 17: Enterprise Knowledge Assessment Engine
+* **Core Concepts:** Custom Class creation architectures, constructor declaration initializers (`__init__`), defining data object model methods, parameter routing inside custom entities, data-to-object matrix conversion, and class object state retention management.
+* **Application:** A full-scale text configuration exam app driven entirely by custom classes. The script iterates through dictionary data structures, initializes custom data objects (`Question`), maps array references into a master loop manager object (`QuizBrain`), and tracks scores dynamically across continuous runtime state boundaries.
 ---
 
 ## 💻 Tech Stack & Environment
