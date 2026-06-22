@@ -63,10 +63,13 @@ Every project here is built locally in VS Code and integrated with production-le
 * **Application:** A full-scale text configuration exam app driven entirely by custom classes. The script iterates through dictionary data structures, initializes custom data objects (`Question`), maps array references into a master loop manager object (`QuizBrain`), and tracks scores dynamically across continuous runtime state boundaries.
 ### 🎨 Day 18: Generative Graphic Art Matrix
 * **Core Concepts:** GUI rendering modules, structural import configurations, external alias libraries mapping (`import turtle as t`), nested condition positioning loops, and mutable integer color tuples configuration arrays (`colormode(255)`).
-* **Application:** An automated digital canvas graphic designer using Python's foundational window runtime layer. The script calculates exact pixel point steps across a $10 x 10$ coordinates layout grid, randomly parses premium color collections out of RGB tuple matrices, and leverages screen interaction click states to handle safe processing framework termination.
+* **Application:** An automated digital canvas graphic designer using Python's foundational window runtime layer. The script calculates exact pixel point steps across a 10 x 10 coordinates layout grid, randomly parses premium color collections out of RGB tuple matrices, and leverages screen interaction click states to handle safe processing framework termination.
 ### 🐢 Day 19: Algorithmic Racing Simulator Engine
 * **Core Concepts:** Event-driven coordinate systems, GUI user parameter capture, initializing structural arrays of objects, managing independent instance properties, and computing coordinate loop boundaries.
 * **Application:** A graphical simulation model that spawns six isolated object instances from a uniform class blueprint. The engine positions them along a multi-lane grid vector, supplies randomized iteration velocity intervals to simulate kinetic randomness, and evaluates relative positioning data boundaries to declare a winner.
+### 🐍 Day 20: Modular Arcade Snake Engine - Part 1
+* **Core Concepts:** Multi-file structural module importing, screen frame tracer overrides (`tracer(0)`), array tracking backwards iteration loops, event binding execution strings, and defensive state manipulation blocks.
+* **Application:** Part 1 of a modular arcade application building a segmented snake object. The architecture separates structural model classes (`snake.py`) from continuous animation loops (`Day20.py`), linking coordinates through inverse tracking loops to guarantee seamless tail following and binding arrow keys to control orientation paths.
 ---
 
 ## 💻 Tech Stack & Environment
