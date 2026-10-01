@@ -74,6 +74,9 @@ Every project here is built locally in VS Code and integrated with production-le
 * **Core Concepts:** OOP Class Inheritance structures (`super().__init__()`), coordinate space collision detection metrics, graphical array mutations, text writing interface overlays, and list slicing logic evaluation loops (`[1:]`).
 * **Application:** A full-scale vintage game clone built on top of a highly modular object framework. The complete architecture couples separate specialized modules—`snake.py`, `food.py` (which inherits and modifies basic Turtle traits), and `scoreboard.py`—into an integrated engine loop that tracks real-time scores, processes grid boundaries, and calculates fractional geometric distance vectors to detect collisions.
 ---
+### 🏓 Day 22: Arcade Pong Engine
+* **Core Concepts:** Multi-threaded user keybindings, vector reflection physics (`velocity *= -1`), dynamic game loop acceleration, collision detection thresholds, and dual-entity score management.
+* **Application:** A fully playable classic Pong game built using Object-Oriented Programming (OOP) across four modular files (`Day22.py`, `paddle.py`, `ball.py`, `pong_scoreboard.py`). Features independent two-player controls, bouncing mechanics off walls and paddles, speed scaling on hits, and real-time score tracking.
 
 ## 💻 Tech Stack & Environment
 * **Language:** Python 3.12+
