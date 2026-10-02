@@ -1,0 +1,12 @@
+# Python bytecode and cache directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Operating system metadata files
+.DS_Store
+Thumbs.db
+
+# VS Code environment settings (optional)
+.vscode/

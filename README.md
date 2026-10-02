@@ -78,6 +78,10 @@ Every project here is built locally in VS Code and integrated with production-le
 * **Core Concepts:** Multi-threaded user keybindings, vector reflection physics (`velocity *= -1`), dynamic game loop acceleration, collision detection thresholds, and dual-entity score management.
 * **Application:** A fully playable classic Pong game built using Object-Oriented Programming (OOP) across four modular files (`Day22.py`, `paddle.py`, `ball.py`, `pong_scoreboard.py`). Features independent two-player controls, bouncing mechanics off walls and paddles, speed scaling on hits, and real-time score tracking.
 
+### 🚗 Day 23: Turtle Crossing Intermediate Capstone
+* **Core Concepts:** Multi-class modular program composition, probabilistic object instantiation loops, bounding box proximity collision math, dynamic vector velocity escalation, and screen refresh state controls.
+* **Application:** A modern Frogger-style arcade game built as an intermediate OOP capstone across four modules (`Day23.py`, `player.py`, `car_manager.py`, `crossing_scoreboard.py`). Features procedural traffic generation, distance vector collision tracking, dynamic stage difficulty scaling, and UI level state progression.
+
 ## 💻 Tech Stack & Environment
 * **Language:** Python 3.12+
 * **IDE:** Visual Studio Code (VS Code)
