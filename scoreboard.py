@@ -1,14 +1,17 @@
 from turtle import Turtle
 
-# --- ALIGNMENT CONSTANTS ---
 ALIGNMENT = "center"
 FONT = ("Courier", 16, "bold")
 
 class Scoreboard(Turtle):
-    """Manages the UI layout overlay layer, text rendering, and tracked scoring states."""
+    """Manages score tracking, high score file persistence, and overlay UI rendering."""
     def __init__(self):
         super().__init__()
         self.score = 0
+        # Load high score from persistent storage on startup
+        with open("data.txt", mode="r") as data:
+            self.high_score = int(data.read())
+            
         self.color("white")
         self.penup()
         self.goto(0, 270)
@@ -16,16 +19,20 @@ class Scoreboard(Turtle):
         self.update_scoreboard()
 
     def update_scoreboard(self):
-        """Clears old prints and renders the updated active scoring matrix values."""
+        """Clears screen overlay and renders current and high scores."""
         self.clear()
-        self.write(f"AMPLIFIED SCORE INDEX: {self.score}", align=ALIGNMENT, font=FONT)
+        self.write(f"SCORE: {self.score}  HIGH SCORE: {self.high_score}", align=ALIGNMENT, font=FONT)
 
-    def increase_score(self):
-        """Increments the internal tracking balance counter and refreshes UI."""
-        self.score += 1
+    def reset(self):
+        """Updates high score if exceeded, saves to data.txt, and resets current score."""
+        if self.score > self.high_score:
+            self.high_score = self.score
+            with open("data.txt", mode="w") as data:
+                data.write(f"{self.high_score}")
+        self.score = 0
         self.update_scoreboard()
 
-    def game_over(self):
-        """Fires a terminal game-over text banner in the absolute center coordinate workspace."""
-        self.goto(0, 0)
-        self.write("🚨 PIPELINE CRASH: GAME OVER", align=ALIGNMENT, font=FONT)
+    def increase_score(self):
+        """Increments active score and refreshes display."""
+        self.score += 1
+        self.update_scoreboard()

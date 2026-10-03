@@ -82,6 +82,10 @@ Every project here is built locally in VS Code and integrated with production-le
 * **Core Concepts:** Multi-class modular program composition, probabilistic object instantiation loops, bounding box proximity collision math, dynamic vector velocity escalation, and screen refresh state controls.
 * **Application:** A modern Frogger-style arcade game built as an intermediate OOP capstone across four modules (`Day23.py`, `player.py`, `car_manager.py`, `crossing_scoreboard.py`). Features procedural traffic generation, distance vector collision tracking, dynamic stage difficulty scaling, and UI level state progression.
 
+### ✉️ Day 24: File Systems & Persistent Storage (Mail Merge & High Score)
+* **Core Concepts:** Python File I/O modes (`r`, `w`, `a`), context management (`with open`), string sanitization (`strip()`, `replace()`), directory path navigation, and local state persistence.
+* **Application:** Implemented local file-based data persistence in two projects. First, refactored the Snake Game to read/write persistent high scores to `data.txt`. Second, built a automated Mail Merge engine (`Day24.py`) that parses target recipient lists, processes template placeholders, and exports customized output text files to disk.
+
 ## 💻 Tech Stack & Environment
 * **Language:** Python 3.12+
 * **IDE:** Visual Studio Code (VS Code)
