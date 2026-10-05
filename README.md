@@ -86,6 +86,31 @@ Every project here is built locally in VS Code and integrated with production-le
 * **Core Concepts:** Python File I/O modes (`r`, `w`, `a`), context management (`with open`), string sanitization (`strip()`, `replace()`), directory path navigation, and local state persistence.
 * **Application:** Implemented local file-based data persistence in two projects. First, refactored the Snake Game to read/write persistent high scores to `data.txt`. Second, built a automated Mail Merge engine (`Day24.py`) that parses target recipient lists, processes template placeholders, and exports customized output text files to disk.
 
+# 🐍 Python 100 Days of Code - Day 25: CSV Data & Pandas Library
+
+## 📌 Overview
+Day 25 focuses on structured data processing in Python using the `pandas` library and the native `csv` module. It features a data processing script analyzing squirrel fur color statistics from the Central Park Census dataset alongside an interactive map quiz game that tracks geographical coordinate lookups and generates tailored review files.
+
+---
+
+## 🛠️ Key Concepts Learned
+* **Pandas Data Structures**: Manipulating DataFrames (2D tables) and Series (1D columns).
+* **Data Filtering & Aggregation**: Filtering rows based on column criteria and aggregating category counts.
+* **CSV Import/Export**: Reading external structured CSV datasets and generating custom CSV outputs using `to_csv()`.
+* **Turtle & Pandas Integration**: Mapping coordinate data onto a graphical canvas using user inputs.
+* **List Comprehension for State Review**: Comparing user progress against complete datasets to generate targeted review files upon exit.
+
+---
+
+## 💻 Projects Included
+
+### 1. Central Park Squirrel Data Aggregator (`Day25_squirrel.py`)
+Processes the 2018 Central Park Squirrel Census dataset to extract counts for each primary fur color ("Gray", "Cinnamon", "Black") and exports a summary DataFrame to `squirrel_count.csv`.
+
+#### Usage:
+```powershell
+python Day25_squirrel.py
+
 ## 💻 Tech Stack & Environment
 * **Language:** Python 3.12+
 * **IDE:** Visual Studio Code (VS Code)

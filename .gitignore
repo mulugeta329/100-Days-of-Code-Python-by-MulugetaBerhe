@@ -10,3 +10,6 @@ Thumbs.db
 
 # VS Code environment settings (optional)
 .vscode/
+Output/
+squirrel_count.csv
+states_to_learn.csv
