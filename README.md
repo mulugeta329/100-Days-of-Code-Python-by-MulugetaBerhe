@@ -111,6 +111,10 @@ Processes the 2018 Central Park Squirrel Census dataset to extract counts for ea
 ```powershell
 python Day25_squirrel.py
 
+### 🎯 Day 26: NATO Phonetic Alphabet Encoder Engine
+* **Core Concepts:** List comprehension idioms (`[new_item for item in iterable]`), conditional list filtering, dictionary comprehension transformations (`{new_key: new_value for (key, value) in dict.items()}`), DataFrame row iteration via Pandas `.iterrows()`, and runtime exception handling using `try-except` blocks.
+* **Application:** An interactive command-line utility that ingests CSV phonetic data, transforms raw DataFrame rows into optimized hash map dictionaries, and parses user string inputs to immediately yield corresponding NATO phonetic alphabet code lists.
+
 ## 💻 Tech Stack & Environment
 * **Language:** Python 3.12+
 * **IDE:** Visual Studio Code (VS Code)
