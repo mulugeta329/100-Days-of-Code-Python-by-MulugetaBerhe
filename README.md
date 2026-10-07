@@ -115,6 +115,10 @@ python Day25_squirrel.py
 * **Core Concepts:** List comprehension idioms (`[new_item for item in iterable]`), conditional list filtering, dictionary comprehension transformations (`{new_key: new_value for (key, value) in dict.items()}`), DataFrame row iteration via Pandas `.iterrows()`, and runtime exception handling using `try-except` blocks.
 * **Application:** An interactive command-line utility that ingests CSV phonetic data, transforms raw DataFrame rows into optimized hash map dictionaries, and parses user string inputs to immediately yield corresponding NATO phonetic alphabet code lists.
 
+### 🎯 Day 27: Mile to Kilometer GUI Converter
+* **Core Concepts:** Graphical User Interface (GUI) development via `tkinter`, window layout management using `.grid()`, event handling with button command callbacks, dynamic text updates using `.config()`, flexible positional/keyword function parameters (`*args` / `**kwargs`), and user input validation.
+* **Application:** A functional desktop GUI converter application built with Python's standard `tkinter` library that accepts mile values from an input entry, performs real-time unit conversion math, and renders formatted kilometer results dynamically on-screen.
+
 ## 💻 Tech Stack & Environment
 * **Language:** Python 3.12+
 * **IDE:** Visual Studio Code (VS Code)
