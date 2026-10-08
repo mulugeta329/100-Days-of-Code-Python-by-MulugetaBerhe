@@ -119,6 +119,10 @@ python Day25_squirrel.py
 * **Core Concepts:** Graphical User Interface (GUI) development via `tkinter`, window layout management using `.grid()`, event handling with button command callbacks, dynamic text updates using `.config()`, flexible positional/keyword function parameters (`*args` / `**kwargs`), and user input validation.
 * **Application:** A functional desktop GUI converter application built with Python's standard `tkinter` library that accepts mile values from an input entry, performs real-time unit conversion math, and renders formatted kilometer results dynamically on-screen.
 
+### 🎯 Day 28: Pomodoro Productivity Timer Application
+* **Core Concepts:** Graphical User Interface (GUI) architecture with `tkinter`, Canvas widget rendering, image layering via `PhotoImage`, event loop scheduling using `.after()` and cancellation via `.after_cancel()`, dynamic typing, and session state tracking.
+* **Application:** A full-featured Pomodoro productivity application designed around 25-minute work blocks and alternating short/long break cycles. Features dynamic countdown overlays rendered on custom canvas graphics, automated checkmark progress tallying, and full execution reset control.
+
 ## 💻 Tech Stack & Environment
 * **Language:** Python 3.12+
 * **IDE:** Visual Studio Code (VS Code)
