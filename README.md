@@ -123,6 +123,10 @@ python Day25_squirrel.py
 * **Core Concepts:** Graphical User Interface (GUI) architecture with `tkinter`, Canvas widget rendering, image layering via `PhotoImage`, event loop scheduling using `.after()` and cancellation via `.after_cancel()`, dynamic typing, and session state tracking.
 * **Application:** A full-featured Pomodoro productivity application designed around 25-minute work blocks and alternating short/long break cycles. Features dynamic countdown overlays rendered on custom canvas graphics, automated checkmark progress tallying, and full execution reset control.
 
+### 🎯 Day 29: Password Manager GUI Application
+* **Core Concepts:** Advanced `tkinter` grid layouts, pop-up dialog boxes via `tkinter.messagebox`, string manipulation, clipboard integration using `pyperclip`, random character sequence generation, and local flat-file storage workflows.
+* **Application:** A desktop password manager that generates cryptographically strong random passwords, automatically syncs new passkeys to the system clipboard, validates empty fields via UI alert dialogs, and appends formatted account credentials to local storage.
+
 ## 💻 Tech Stack & Environment
 * **Language:** Python 3.12+
 * **IDE:** Visual Studio Code (VS Code)
