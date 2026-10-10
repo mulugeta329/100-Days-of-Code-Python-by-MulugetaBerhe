@@ -127,6 +127,10 @@ python Day25_squirrel.py
 * **Core Concepts:** Advanced `tkinter` grid layouts, pop-up dialog boxes via `tkinter.messagebox`, string manipulation, clipboard integration using `pyperclip`, random character sequence generation, and local flat-file storage workflows.
 * **Application:** A desktop password manager that generates cryptographically strong random passwords, automatically syncs new passkeys to the system clipboard, validates empty fields via UI alert dialogs, and appends formatted account credentials to local storage.
 
+### 🎯 Day 30: Enhanced Password Manager (Errors, Exceptions & JSON Data)
+* **Core Concepts:** Exception handling with `try`, `except`, `else`, and `finally` blocks, structured data serialization/deserialization via Python's `json` library (`json.dump()`, `json.load()`, `json.update()`), key search querying, and defensive input parsing.
+* **Application:** An upgraded desktop Password Manager featuring instant credential searching, structured JSON storage, robust exception handling for missing files or keys, and automated user feedback via `tkinter.messagebox`.
+
 ## 💻 Tech Stack & Environment
 * **Language:** Python 3.12+
 * **IDE:** Visual Studio Code (VS Code)
