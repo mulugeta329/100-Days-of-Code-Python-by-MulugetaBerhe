@@ -131,6 +131,10 @@ python Day25_squirrel.py
 * **Core Concepts:** Exception handling with `try`, `except`, `else`, and `finally` blocks, structured data serialization/deserialization via Python's `json` library (`json.dump()`, `json.load()`, `json.update()`), key search querying, and defensive input parsing.
 * **Application:** An upgraded desktop Password Manager featuring instant credential searching, structured JSON storage, robust exception handling for missing files or keys, and automated user feedback via `tkinter.messagebox`.
 
+### 🎯 Day 31: Flash Card App Capstone Project (Flashy)
+* **Core Concepts:** Advanced `tkinter` GUI layout, canvas graphics, state management via asynchronous event loops (`window.after()` / `window.after_cancel()`), and data manipulation/persistence using Pandas and CSV files.
+* **Application:** An interactive language-learning desktop application that presents flash cards, automatically flips them after a 3-second interval to reveal translations, and tracks progress by filtering out mastered vocabulary words into a separate tracking file.
+
 ## 💻 Tech Stack & Environment
 * **Language:** Python 3.12+
 * **IDE:** Visual Studio Code (VS Code)
