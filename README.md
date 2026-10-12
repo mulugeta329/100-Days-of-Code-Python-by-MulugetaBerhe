@@ -135,6 +135,10 @@ python Day25_squirrel.py
 * **Core Concepts:** Advanced `tkinter` GUI layout, canvas graphics, state management via asynchronous event loops (`window.after()` / `window.after_cancel()`), and data manipulation/persistence using Pandas and CSV files.
 * **Application:** An interactive language-learning desktop application that presents flash cards, automatically flips them after a 3-second interval to reveal translations, and tracks progress by filtering out mastered vocabulary words into a separate tracking file.
 
+### 🎯 Day 32: Automated Birthday Wisher & Email Sender (SMTP & Datetime)
+* **Core Concepts:** Managing date and time objects using Python's built-in `datetime` library, connecting to mail servers using Simple Mail Transfer Protocol (`smtplib`), securing transport layer security (`TLS`), and handling environment credentials securely.
+* **Application:** An automated notification system script designed to track calendar dates, pull randomized message templates, and dispatch automated emails via external SMTP servers.
+
 ## 💻 Tech Stack & Environment
 * **Language:** Python 3.12+
 * **IDE:** Visual Studio Code (VS Code)
